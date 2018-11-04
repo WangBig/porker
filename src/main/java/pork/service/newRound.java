@@ -1,10 +1,7 @@
 package pork.service;
-
-import javafx.util.Pair;
 import org.springframework.stereotype.Service;
 import pork.model.data.ActorEnum;
 import pork.model.data.Player;
-import pork.model.data.Suit;
 import pork.model.pork.PorkEntity;
 import pork.model.pork.PorkSuit;
 
@@ -23,7 +20,6 @@ public class newRound {
         landlord.getPorkes().addAll(dealResult.get(3));
         farmerA.setPorkes(dealResult.get(1));
         farmerB.setPorkes(dealResult.get(2));
-        System.out.println(dealResult);
     }
 
 
